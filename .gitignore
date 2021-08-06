@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+dist/
 /.pnp
 .pnp.js
 
@@ -29,6 +30,16 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+package-lock.json
+yarn.lock
 
 # vercel
 .vercel
