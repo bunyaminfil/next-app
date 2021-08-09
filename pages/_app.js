@@ -3,6 +3,8 @@ import Head from "next/head";
 import App from "next/app";
 import AppLayout from "../components/Layout/AppLayout";
 import { DefaultSeo } from "next-seo";
+import "antd/dist/antd.css";
+import "../styles/layout.css";
 
 class NextApp extends App {
   render() {
